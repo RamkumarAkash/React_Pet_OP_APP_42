@@ -1,4 +1,4 @@
-FROM react_base_image:latest AS react_base
+FROM replicacia/react_base_image:latest AS react_base
 ENV NODE_ENV=production
 WORKDIR /usr/src/app
 COPY . .
